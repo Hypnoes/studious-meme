@@ -10,7 +10,7 @@ config = "0.15.11"
 flexi_logger = "0.29.8"
 lazy_static = "1.5.0"
 log = "0.4.27"
-prometheus = "0.14.0"
+prometheus = "0.13.4"
 rand = "0.9.0"
 serde = { version = "1.0.219", features = ["derive"] }
 sysinfo = "0.34.1"
