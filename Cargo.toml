@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+actix-web = "4.10.2"
+actix-web-prom = "0.9.0"
+config = "0.15.11"
+flexi_logger = "0.29.8"
+lazy_static = "1.5.0"
+log = "0.4.27"
+prometheus = "0.14.0"
+rand = "0.9.0"
+serde = { version = "1.0.219", features = ["derive"] }
+sysinfo = "0.34.1"
