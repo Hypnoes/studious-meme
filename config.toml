@@ -1,0 +1,3 @@
+database_dsn = "postgres://user:password@db:5432/automatic_guide"
+http_port = 9000
+log_output = "stdout"

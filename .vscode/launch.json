@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'automatic-guide'",
+            "name": "Debug executable 'studious-meme'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=automatic-guide",
-                    "--package=automatic-guide"
+                    "--bin=studious-meme",
+                    "--package=studious-meme"
                 ],
                 "filter": {
-                    "name": "automatic-guide",
+                    "name": "studious-meme",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'automatic-guide'",
+            "name": "Debug unit tests in executable 'studious-meme'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=automatic-guide",
-                    "--package=automatic-guide"
+                    "--bin=studious-meme",
+                    "--package=studious-meme"
                 ],
                 "filter": {
-                    "name": "automatic-guide",
+                    "name": "studious-meme",
                     "kind": "bin"
                 }
             },
